@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.2"
+  },
+  "scripts": {
+    "start": ""
+  },
+  "name": "directory_copier",
+  "description": "define a source and target, then copy a directory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "JeremyM",
+  "license": "MIT"
+}
