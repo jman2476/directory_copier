@@ -5,9 +5,9 @@ const inquirer = require('@inquirer/prompts')
 const { write_bash } = require('./assets/functions')
 
 // initializing function
-async function init(){
+function init(){
     console.log('process initialized')
-    await write_bash()
+    write_bash()
     //process.exit()
 }
 
