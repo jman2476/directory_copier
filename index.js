@@ -2,12 +2,13 @@
 const inquirer = require('@inquirer/prompts')
 
 // import functions and prompts
-const { write_bash } = require('./assets/functions')
+const { ls_bash, copy_directory } = require('./assets/functions')
 
 // initializing function
 function init(){
     console.log('process initialized')
-    write_bash()
+    // ls_bash()
+    copy_directory('~/source_test/.', '~/target_test')
     //process.exit()
 }
 
