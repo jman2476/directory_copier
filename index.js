@@ -2,13 +2,14 @@
 const inquirer = require('@inquirer/prompts')
 
 // import functions and prompts
-const { ls_bash, copy_directory } = require('./assets/functions')
+const { get_directories, copy_directory } = require('./assets/functions')
 
 // initializing function
-function init(){
+async function init(){
     console.log('process initialized')
-    // ls_bash()
-    copy_directory('~/source_test/.', '~/target_test')
+    
+    await get_directories()
+    // copy_directory('~/source_test/.', '~/target_test')
     //process.exit()
 }
 
